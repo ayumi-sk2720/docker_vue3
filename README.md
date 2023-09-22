@@ -1,24 +1,13 @@
-# app
+# 概要
+DockerでVue3の開発環境を構築する
 
-## Project setup
+## コンテナ起動
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+make up-build
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 起動確認
+- https://localhost:3000 にアクセスすると、Vueの画面が表示される
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## コマンドについて
+Makefileを参照
