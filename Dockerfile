@@ -7,4 +7,5 @@ WORKDIR /app
 COPY  . /app
 RUN yarn install
 
-CMD ["yarn", "serve"]
+EXPOSE 8080
+CMD ["yarn", "run", "serve"]
